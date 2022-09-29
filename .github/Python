@@ -1,0 +1,6 @@
+name = input("what is your name?")
+#xóa khoảng cách trắng từ bên trái sáng
+name = name.strip()
+#in hoa chữ đầu tiên
+name = name.capitalize() or name = name.title()       
+print(f"hello, {name}") 
